@@ -1,0 +1,6 @@
+target/
+*.swp
+*.log
+grails-newrelic-*.zip*
+plugin.xml
+web-app/
