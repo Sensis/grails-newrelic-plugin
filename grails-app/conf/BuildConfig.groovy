@@ -14,7 +14,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-        compile "com.newrelic.agent.java:newrelic-api:2.12.0"
+        compile "com.newrelic.agent.java:newrelic-api:2.15.0"
     }
     plugins {
         compile(':rest-client-builder:1.0.2') {
