@@ -65,6 +65,12 @@ export GRAILS_OPTS="-javaagent:/path/to/newrelic.jar"
 
 The next time you execute 'run-app' or 'run-war', NewRelic instrumentation code will be included in your generated HTML pages.
 
+On newer versions of grails that use a forked jvm, you may need to include the java agent in your tomcat configuration. This is in BuildConfig.groovy.
+
+```groovy
+grails.tomcat.jvmArgs = ["-javaagent:/path/to/newrelic.jar"]
+```
+
 Advanced topics
 ===============
 For other usages of the NewRelic plugin, see the [wiki pages](https://github.com/Sensis/grails-newrelic-plugin/wiki) for more information.
