@@ -15,7 +15,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-        compile "com.newrelic.agent.java:newrelic-api:2.19.0"
+        compile "com.newrelic.agent.java:newrelic-api:3.6.0"
         test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
     }
     plugins {
